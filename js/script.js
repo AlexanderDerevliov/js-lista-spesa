@@ -15,12 +15,13 @@ let i = 0;
 let listProducts = "<ul>"
 
 
-while(products[i]){
-    listProducts += `<li>${products[i]}<li>`;
-    console.log (listProducts)
+while (products[i]) {
+    listProducts += `<li>${products[i]}</li>`;
+
     i++;
 }
 
+listproducts = "</ul>"
 
-listProducts += "<ul>"
+
 listElements.innerHTML += listProducts;
