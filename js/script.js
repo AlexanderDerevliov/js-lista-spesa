@@ -21,7 +21,6 @@ while (products[i]) {
     i++;
 }
 
-listproducts = "</ul>"
 
 
 listElements.innerHTML += listProducts;
